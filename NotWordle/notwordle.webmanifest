@@ -15,7 +15,7 @@
         "type": "image/png"
       }
     ],
-    "start_url": "index.html",
+    "start_url": "https://p0pman20.github.io/NotWordle/index.html",
     "display": "fullscreen",
     "theme_color": "#696969",
     "background_color": "#696969",
