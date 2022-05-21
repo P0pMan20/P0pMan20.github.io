@@ -27,7 +27,13 @@ table, tr, td {
 
 }
 
-
+/* breaks on ie8 but this is only for something like an iphone 5s
+https://stackoverflow.com/a/13476297/13360412*/
+@media only screen and (max-height: 630px) {
+    #fadeshow1 {
+        display: none;
+    }
+}
 
 .score{
     height: 20px;
