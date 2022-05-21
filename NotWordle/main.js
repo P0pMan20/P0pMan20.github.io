@@ -13,7 +13,7 @@ function handleinput(){
         console.log(event.key)
 
         
-      
+        
         // Cancel the default action to avoid it being handled twice
         event.preventDefault();
       }, true);
@@ -190,7 +190,7 @@ function settogrid(e){
             rowCount++;
 
 
-        } if (rowCount === rowNumber){
+        } if (rowCount === rowNumber+1){
             Score()
             alert(`The word was ${word}, Hit next word to try again`)
         }
