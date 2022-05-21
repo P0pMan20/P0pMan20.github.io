@@ -30,8 +30,17 @@ table, tr, td {
 /* breaks on ie8 but this is only for something like an iphone 5s
 https://stackoverflow.com/a/13476297/13360412*/
 @media only screen and (max-height: 630px) {
+    /* https://stackoverflow.com/a/46137051/13360412 */
+    
     #title {
-        display: none;
+        position: absolute;
+        visibility:hidden;      
+        display:none;
+    }
+    #score-container {
+        position: absolute;
+        visibility:hidden;
+        display:none;
     }
 }
 
