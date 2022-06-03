@@ -27,7 +27,7 @@ function removeAllChildNodes(parent) {
     }
 }
 
-
+const alphabet = "abcdefghijklmnopqrstuvwxyz"
 let rowCount = 0
 let columnCount = 0
 let word = "party" 
@@ -163,8 +163,9 @@ function Score(){
 }
 
 function settogrid(e){
-    let df = false
-    if (e.key.length === 1){
+    let df = false  
+    // if letter
+    if (alphabet.includes(e.key)){
         if (columnCount === columnNumber){
             columnCount--;
         }
