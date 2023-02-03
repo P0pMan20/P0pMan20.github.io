@@ -1,0 +1,25 @@
+{
+    "name": "NotWordle Progressive Web App",
+    "short_name": "NotWordle",
+    "description": "Progressive Web App that plays NotWorldle.",
+    "icons": [
+      {
+        "src": "icons/icon.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+
+      {
+        "src": "icons/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "https://p0pman20.github.io/NotWordle/index.html",
+    "display": "fullscreen",
+    "theme_color": "#696969",
+    "background_color": "#696969",
+    "sauce" : "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs"
+
+  }
+  

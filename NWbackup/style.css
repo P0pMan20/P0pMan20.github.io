@@ -1,0 +1,88 @@
+table, tr, td {
+    border: 7px solid;
+    border-radius: 2px;
+    border-color: white;
+    table-layout: 'fixed';
+    color: white;
+    background-color: #2A2A2A;
+}
+
+.sidecolumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.keyboardButton{
+    width: 8.5vw;
+    height: 50px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    border: 4px solid;
+    border-radius: 5px;
+    margin: 2px;
+    border-color: white;
+    table-layout: 'fixed';
+    color: white;
+    background-color: #2A2A2A;
+
+}
+
+/* breaks on ie8 but this is only for something like an iphone 5s
+https://stackoverflow.com/a/13476297/13360412*/
+@media only screen and (max-height: 630px) {
+    /* https://stackoverflow.com/a/46137051/13360412 */
+    
+    #title {
+        position: absolute;
+        visibility:hidden;      
+        display:none;
+    }
+    #score-container {
+        position: absolute;
+        visibility:hidden;
+        display:none;
+    }
+}
+
+.score{
+    height: 20px;
+}
+
+#sidecolumn{
+    display: flex;
+    width: 50px;
+    flex-direction: column;
+}
+
+.centre50{
+    position: relative;
+    text-align: center;
+    top:20px;
+}
+
+.btnmod{
+    width: 50px;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+.bi-question-circle{
+    width: 1em;
+    height: 1em;
+    font-size: 2rem;
+}
+.bi-arrow-right-circle{
+    width: 1em;
+    height: 1em;
+    font-size: 2rem;
+}
+
+.test{
+    display: block
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#ff66ff, #660066);
+    /* background-image: var(--bs-gradient); */
+}
